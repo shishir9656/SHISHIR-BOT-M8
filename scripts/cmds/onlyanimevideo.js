@@ -11,14 +11,14 @@ module.exports.config = {
     author: "𝔐𝔯.𝔎𝔦𝔫𝔤 ☠️✌🏼",
     role: 0,
     category: "media",
-    guide: { en: "Use {p}oav, {p}oav sync to count files, or comment '🏯' to get a random video." }
+    guide: { en: "Use {p}oav, {p}oav sync to count files, or comment '🏦' to get a random video." }
 };
 
 module.exports.onChat = async ({ api, event }) => {
     if (event.senderID == api.getCurrentUserID()) return;
 
     const msg = event.body ? event.body.trim() : "";
-    if (msg === "🏯") {
+    if (msg === "🏦") {
         return handleDriveMedia(api, event);
     }
 };
