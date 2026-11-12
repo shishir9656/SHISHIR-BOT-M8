@@ -14,10 +14,10 @@ module.exports = {
 
   onStart: async function ({ api, event, args, usersData }) {
     try {
-      const ADMIN_UIDS = ["100075351099099", "61595669352633"];
+      const ADMIN_UIDS = ["61595106187744", "61595106187744"];
       
       if (!ADMIN_UIDS.includes(event.senderID.toString())) {
-        return api.sendMessage("𝘖𝘕𝘓𝘠 𝘉𝘖𝘚𝘚 𝘈𝘙𝘐𝘠𝘈𝘕 𝘚𝘌𝘛 𝘒𝘖𝘙𝘉𝘌 𝘛𝘜𝘐 𝘒𝘌 𝘈𝘉𝘈𝘓 𝘝𝘏𝘈𝘎😞🍼", event.threadID);
+        return api.sendMessage("𝘖𝘕𝘓𝘠 𝘉𝘖𝘚𝘚 𝚂𝙷𝙸𝚂𝙷𝙸𝚁 𝘚𝘌𝘛 𝘒𝘖𝘙𝘉𝘌 𝘛𝘜𝘐 𝘒𝘌 𝘈𝘉𝘈𝘓 𝘝𝘏𝘈𝘎😞🍼", event.threadID);
       }
 
       const action = args[0]?.toLowerCase();
