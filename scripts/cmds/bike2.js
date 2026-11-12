@@ -20,7 +20,7 @@ module.exports.config = {
     author: "𝔐𝔯.𝔎𝔦𝔫𝔤 ☠️✌🏼",
     role: 0,
     category: "media",
-    guide: { en: "Use {p}bike, {p}bike sync to count files, or send '🔮' to get a random video." }
+    guide: { en: "Use {p}bike, {p}bike sync to count files, or send '🏍️' to get a random video." }
 };
 
 async function fetchFolderFiles(forceRefresh = false) {
