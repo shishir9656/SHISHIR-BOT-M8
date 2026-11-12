@@ -1181,7 +1181,7 @@ module.exports = {
     const isAdmin = adminBotList.includes(String(uid));
 
     if (args[0] === "add") {
-      if (!isAdmin) return message.reply("• ❌ | 𝐎𝐧𝐥𝐲 𝐦𝐲 𝐚𝐝𝐦𝐢𝐧 𝑨𝑹𝑰𝒀𝑨𝑵 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝!.");
+      if (!isAdmin) return message.reply("• ❌ | 𝐎𝐧𝐥𝐲 𝐦𝐲 𝐚𝐝𝐦𝐢𝐧 𝐒𝐇𝐈𝐒𝐇𝐈𝐑 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝!.");
       const days = parseInt(args[1]);
       if (!days || isNaN(days) || days <= 0) return message.reply("• ❌ 𝐏𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐯𝐚𝐥𝐢𝐝 𝐝𝐚𝐲𝐬.");
 
@@ -1210,7 +1210,7 @@ module.exports = {
     }
 
     if (args[0] === "remove") {
-      if (!isAdmin) return message.reply("• ❌ | 𝐎𝐧𝐥𝐲 𝐦𝐲 𝐚𝐝𝐦𝐢𝐧 𝑨𝑹𝑰𝒀𝑨𝑵 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝!");
+      if (!isAdmin) return message.reply("• ❌ | 𝐎𝐧𝐥𝐲 𝐦𝐲 𝐚𝐝𝐦𝐢𝐧 boss 𝐒𝐇𝐈𝐒𝐇𝐈𝐑 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝!");
       const tid = getTargetID();
       if (!tid) return message.reply("• ❌ | 𝐑𝐞𝐩𝐥𝐲 𝐨𝐫 𝐦𝐞𝐧𝐭𝐢𝐨𝐧 𝐚 𝐮𝐬𝐞𝐫.");
       const user = await usersData.get(tid);
