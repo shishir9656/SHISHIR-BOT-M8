@@ -6,7 +6,7 @@ const sharp = require("sharp");
 module.exports = {
   config: {
     name: "edit4",
-    aliases: ["e"],
+    aliases: ["edit4"],
     version: "2.0.0",
     author: "Arafat Sarder",
     countDown: 10,
