@@ -2,8 +2,8 @@ const os = require("os");
 
 module.exports = {
   config: {
-    name: "uptime3",
-    aliases: ["upt3"],
+    name: "uptime9",
+    aliases: ["upt9"],
     version: "3.0",
     author: "xalman",
     countDown: 5,
