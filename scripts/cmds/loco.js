@@ -138,7 +138,8 @@ async function handleDriveMedia(api, event) {
         const stream = await global.utils.getStreamFromURL(downloadUrl);
 
         return api.sendMessage({
-            body: `🎬 ━━━━ 𝙃𝙀𝙍𝙀 𝙄𝙎 𝙔𝙊𝙐𝙍 𝙑𝙄𝘿𝙀𝙊 ━━━━ 🎬 ✦ 𝐒𝐇𝐈𝐒𝐇𝐈𝐑 ✦🦖💥`,
+            body: `♛ 𝐕𝐈𝐃𝐄𝐎 𝐂𝐑𝐀𝐅𝐓𝐄𝐃 𝐁𝐘
+⚡ 𝐀𝐇𝐌𝐄𝐃’𝐙 𝐒𝐇𝐈’𝐒𝐇𝐈𝐑 🖤`,
             attachment: [stream]
         }, threadID, (err) => {
             if (!err) {
