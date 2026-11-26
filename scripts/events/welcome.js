@@ -21,7 +21,7 @@ try { sharp = require("sharp"); } catch (e) {}
 const BG_CANDIDATES = ["welcome_bg.gif", "welcome_bg.webp", "welcome_bg.jpg", "welcome_bg.png"]
 	.map(f => path.join(process.cwd(), f));
 const FONT_FILE = path.join(process.cwd(), "welcome_font.ttf"); // ঐচ্ছিক: সুন্দর ফন্ট
-const BG_URL = "https://i.imgur.com/S1FHyui.jpeg"; // চাইলে ছবি/GIF এর সরাসরি লিংকও দিতে পারো
+const BG_URL = "https://i.imgur.com/Okmh4cg.jpeg"; // চাইলে ছবি/GIF এর সরাসরি লিংকও দিতে পারো
 const FONT = "WelcomeFont, serif";
 
 const DW = 960, DH = 540; // ডিজাইনের মাপ
