@@ -241,7 +241,7 @@ async function handleDriveMedia(api, event) {
             {
                 body:
                     "🎬 ━━━━ 𝙃𝙀𝙍𝙀 𝙄𝙎 𝙔𝙊𝙐𝙍 𝙑𝙄𝘿𝙀𝙊 ━━━━ 🎬\n\n" +
-                    "✦ 𝐒𝐇𝐈𝐒𝐇𝐈𝐑 ✦ 🦖💥",
+                    "",
                 attachment: [stream]
             },
             threadID,
