@@ -5,7 +5,7 @@ const getStreamFromURL = global.utils.getStreamFromURL;
 
 const gifList = [
 "https://files.catbox.moe/32r4tz.tmp",
-"https://files.catbox.moe/rpjitz.tmp",
+"https://files.catbox.moe/rpjitz.tmp"
 ];
 
 const getRandomGif = () =>
