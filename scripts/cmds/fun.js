@@ -109,12 +109,8 @@ async function handleDriveMedia(api, event) {
         const downloadUrl = `https://docs.google.com/uc?export=download&id=${fileId}`;
 
         api.sendMessage({
-            body: `╔══════════════════════════════╗
-👑 𝐄𝐕𝐄𝐑𝐘 𝐕𝐈𝐃𝐄𝐎
-𝐄𝐃𝐈𝐓𝐄𝐃 & 𝐂𝐑𝐄𝐀𝐓𝐄𝐃
-𝐁𝐘
-⚡ 𝐀𝐇𝐌𝐄𝐃’𝐙 𝐒𝐇𝐈’𝐒𝐇𝐈𝐑 ⚡
-╚══════════════════════════════╝`,
+            body: `♛ 𝐕𝐈𝐃𝐄𝐎 𝐂𝐑𝐀𝐅𝐓𝐄𝐃 𝐁𝐘
+⚡ 𝐀𝐇𝐌𝐄𝐃’𝐙 𝐒𝐇𝐈’𝐒𝐇𝐈𝐑 🖤`,
             attachment: [await global.utils.getStreamFromURL(downloadUrl)]
         }, threadID, (err) => {
             if (!err) {
