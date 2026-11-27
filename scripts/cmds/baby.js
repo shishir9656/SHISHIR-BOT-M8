@@ -264,6 +264,11 @@ module.exports.onChat = async ({ api, event, usersData }) => {
         if (!arr) {
             const baseReplies = [
                 "kire sali ki koibi koo fast dakis na💬",
+                "@Hi..apu... Apni keno amake block korcen ami janina... Please 1 ta bar kotha bolar sojog cai ami plese 😅",
+                "@Apu Ami Apnake Onek Love Kori Plz Add Koren 🐼",
+                "@apnke Chara Ami bacbo na I love you 🫶🥹",
+                "@Hi Apu Asole ami apnake onk din dhore pochondo kori but bolte pari na tai friend request dilam apni jodi accept na koren tahole ami bachbo na",
+                "@আমার ছটো বেলার সপ্ন কলা খাবো কিন্তু টাকার ওভাবে কনোদিন খেতে পারি নাই একদিন জয়া নাম এর এক খানকিমাগির ব্যাগ থেকে একটা হিরো কনডম পরে যায় আমি তখন ওই কনডম টা বিক্রি করে একটা কলা কিনে খেয়ে ফেলি",
         "হুম? বলো 😺",
         "হ্যাঁ জানু 😚",
         "শুনছি বেবি 😘",
