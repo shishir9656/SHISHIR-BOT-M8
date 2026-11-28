@@ -43,10 +43,10 @@ module.exports = {
       api.sendMessage(
         {
           body:
-            `✨ ───────────────── ✨\n` +
-            `Here is your img ☠️✌🏼\n` +
-            `📝 Prompt: ${prompt}\n` +
-            `✨ ───────────────── ✨`,
+            `🐊🦆\n` +
+            `✅ 𝐇𝐞𝐫𝐞'𝐬 𝐲𝐨𝐮𝐫 𝐄𝐝𝐢𝐭𝐞𝐝 𝐢𝐦𝐚𝐠\n` +
+            `𝐏𝐫𝐨𝐦𝐩𝐭: : ${prompt}\n` +
+            ``,
           attachment: response.data
         },
         event.threadID
