@@ -99,10 +99,10 @@ module.exports = {
 
     // --- VIDEO LIST ---
     const videoURLs = [
-      "https://i.imgur.com/4PdoCGI.mp4",
+      "https://i.imgur.com/9mZQVbR.mp4",
+      "https://i.imgur.com/Bspis1c.mp4",
+      "https://i.imgur.com/Rez4Xt8.mp4",
       "https://i.imgur.com/dCPrqNd.mp4",
-      "https://i.imgur.com/xhFp4Rc.mp4",
-      "https://i.imgur.com/EXar1VY.mp4",
       "https://i.imgur.com/vWigmIF.mp4",
       "https://i.imgur.com/V6Au0p4.mp4",
       "https://i.imgur.com/qw9KVTY.mp4"
